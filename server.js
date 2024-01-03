@@ -37,8 +37,12 @@ app.use(express.json());
 //built in middleware for static files
 app.use(  "/" , express.static(path.join(__dirname, '/public')));
 app.use(  "/subdir", express.static(path.join(__dirname, '/public')));
+
+//routes
 app.use("/subdir",require("./routes/subdir"));
 app.use("/",require("./routes/root"));
+app.use("/employees",require("./routes/api/employees"));
+
 
 
 
