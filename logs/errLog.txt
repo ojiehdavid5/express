@@ -3,3 +3,6 @@
 20240102	21:46:44	f5db6a30-40b2-4c86-8cbc-759e195a8723	Error:  NOT ALLOWED BY CORS
 20240102	21:46:44	e8c8476d-d00b-4fe1-bfea-22072af34119	Error:  NOT ALLOWED BY CORS
 20240102	21:47:09	d15a6b07-5ccc-4bdc-a283-7aad7cc2194a	ReferenceError:  sendFile is not defined
+20240104	11:28:44	69affdf3-84d3-4185-8aa4-5b8d1114f4f8	ReferenceError:  david is not defined
+20240104	11:29:27	d0ff3734-2c2a-4e91-ad15-3e8ae64bbfce	ReferenceError:  David is not defined
+20240104	12:45:30	efd0e43a-6473-4f8e-a742-48ab10ee9bec	Error:  NOT ALLOWED BY CORS
