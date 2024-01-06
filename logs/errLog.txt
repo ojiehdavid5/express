@@ -6,3 +6,23 @@
 20240104	11:28:44	69affdf3-84d3-4185-8aa4-5b8d1114f4f8	ReferenceError:  david is not defined
 20240104	11:29:27	d0ff3734-2c2a-4e91-ad15-3e8ae64bbfce	ReferenceError:  David is not defined
 20240104	12:45:30	efd0e43a-6473-4f8e-a742-48ab10ee9bec	Error:  NOT ALLOWED BY CORS
+20240106	16:20:37	d4a65eb4-cfae-4770-bc39-df020b80141b	TypeError:  data.setEmployees is not a function
+20240106	16:20:38	71befaf8-fb29-4fe6-887f-dea31eb0bcab	TypeError:  data.setEmployees is not a function
+20240106	16:20:38	153c4ff3-4f3f-44b9-9fe6-e24c8fab7652	TypeError:  data.setEmployees is not a function
+20240106	16:20:39	3ad6159c-2855-4d12-9f50-0ee6ab4c80b4	TypeError:  data.setEmployees is not a function
+20240106	16:20:39	ad642877-ea2d-4509-94a5-31163da410b7	TypeError:  data.setEmployees is not a function
+20240106	16:20:43	4c4c7381-85ce-483c-b796-dd1d1418d813	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	616e5f57-e76f-4ca0-a4ca-8eb27754c2f3	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	8d3a89fb-1967-481a-b36d-a9b3270e9138	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	6a87f781-a5e7-4805-b2a4-0da6fa28d38c	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	9c704af7-56be-4102-be0d-9ba11f37c9a6	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	d2446311-e47d-4e82-8d46-1c4f8eec2fb2	TypeError:  data.setEmployees is not a function
+20240106	16:20:44	9969378f-be2f-4005-ad34-57bfd2cf671c	TypeError:  data.setEmployees is not a function
+20240106	16:20:45	bae27209-1d9e-441b-8389-7257b004f88a	TypeError:  data.setEmployees is not a function
+20240106	16:20:45	9e1e091e-5fbe-4984-9dc5-8a71f50033c0	TypeError:  data.setEmployees is not a function
+20240106	16:20:45	2b8983e6-1178-4509-89f0-4ef364ef54cb	TypeError:  data.setEmployees is not a function
+20240106	16:20:49	10d07c6e-de80-4080-b21c-c7cf04c9fb18	TypeError:  data.setEmployees is not a function
+20240106	16:20:50	88f61bec-0d51-4783-b144-35972a34efa4	TypeError:  data.setEmployees is not a function
+20240106	16:20:50	9d086e42-b686-4181-8296-e8e9a7cdb01c	TypeError:  data.setEmployees is not a function
+20240106	16:20:50	0500caea-21d6-4698-98d1-a4a348b74a7d	TypeError:  data.setEmployees is not a function
+20240106	16:20:50	e47830d7-3dd4-494c-af63-207fd36bdb23	TypeError:  data.setEmployees is not a function
