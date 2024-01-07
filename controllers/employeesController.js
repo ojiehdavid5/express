@@ -1,15 +1,13 @@
-const data={
-    employees:require("../model/employees.json"),
+const data = {
+    employees: require('../model/employees.json'),
     setEmployees: function (data) { this.employees = data }
+}
 
-};
-
-const getAllEmployees=(req,res)=>{
+const getAllEmployees = (req, res) => {
     res.json(data.employees);
 }
 
-
-const createNewEmployees=(req,res)=>{
+const createNewEmployee = (req, res) => {
     const newEmployee = {
         id: data.employees?.length ? data.employees[data.employees.length - 1].id + 1 : 1,
         firstname: req.body.firstname,
@@ -24,10 +22,7 @@ const createNewEmployees=(req,res)=>{
     res.status(201).json(data.employees);
 }
 
-
-
-const updateEmployees=(req,res)=>{
-
+const updateEmployee = (req, res) => {
     const employee = data.employees.find(emp => emp.id === parseInt(req.body.id));
     if (!employee) {
         return res.status(400).json({ "message": `Employee ID ${req.body.id} not found` });
@@ -40,9 +35,7 @@ const updateEmployees=(req,res)=>{
     res.json(data.employees);
 }
 
-
-const deleteEmployees=(req,res)=>{
-
+const deleteEmployee = (req, res) => {
     const employee = data.employees.find(emp => emp.id === parseInt(req.body.id));
     if (!employee) {
         return res.status(400).json({ "message": `Employee ID ${req.body.id} not found` });
@@ -51,7 +44,8 @@ const deleteEmployees=(req,res)=>{
     data.setEmployees([...filteredArray]);
     res.json(data.employees);
 }
-const getEmployee=(req,res)=>{
+
+const getEmployee = (req, res) => {
     const employee = data.employees.find(emp => emp.id === parseInt(req.params.id));
     if (!employee) {
         return res.status(400).json({ "message": `Employee ID ${req.params.id} not found` });
@@ -59,12 +53,10 @@ const getEmployee=(req,res)=>{
     res.json(employee);
 }
 
-
-module.exports={
+module.exports = {
     getAllEmployees,
-    createNewEmployees,
-    updateEmployees,
-    deleteEmployees,
+    createNewEmployee,
+    updateEmployee,
+    deleteEmployee,
     getEmployee
 }
-
