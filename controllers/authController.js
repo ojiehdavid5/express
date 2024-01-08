@@ -17,6 +17,7 @@ const handleLogin = async (req, res) => {
     const match = await bcrypt.compare(pwd, foundUser.password);
     if (match) {
         // create JWTs
+        const accessToken=jwt.sign()
         res.json({ 'success': `User ${user} is logged in!` });
     } else {
         res.sendStatus(401);
