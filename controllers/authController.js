@@ -29,8 +29,12 @@ const handleLogin = async (req, res) => {
         //saving refreshtoken with current users
         const otherUsers=usersDB.users.filter(person =>person.username !== foundUser.username);
         const currentUser={...foundUser,refreshToken};
-        usersDB.setUsers([...otherUsers ,currentUsers]);
-        await fsPromises.writeFile(path.join(__dirname, "..","model","user.json"),JSON.stringify(userDB.users));
+        usersDB.setUsers([...otherUsers,  currentUser]);
+        await fsPromises.writeFile(path.join(__dirname, "..","model","user.json"),
+        JSON.stringify(usersDB.users)
+        );
+
+        res.cookie("jwt",refreshToken,{httpOnly:true,maxAge:24*60*60*1000})
         res.json({ accessToken });
     } else {
         res.sendStatus(401);
