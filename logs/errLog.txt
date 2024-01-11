@@ -36,3 +36,4 @@
 20240110	07:53:49	b6802faf-532a-4988-bf93-79f31db9471b	ReferenceError: user is not defined
 20240110	07:54:21	aea6d0e7-3e55-4a43-9303-40acff9224aa	ReferenceError: user is not defined
 20240110	07:54:28	36f3306c-18bd-4541-89f6-eef373524a44	ReferenceError: user is not defined
+20240111	17:52:47	fbf2e4cc-6f83-491a-862f-4baebb26e571	TypeError: Cannot read properties of undefined (reading 'Authorization')

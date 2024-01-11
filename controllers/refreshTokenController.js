@@ -19,8 +19,12 @@ jwt.verify(
     (err,decoded)=>{
 
         if(err|| foundUser.username !== decoded.username) return res.sendStatus(403); //forbidden
+        const roles=Object.values(foundUser.roles)
         jwt.sign(
-            {"username": foundUser.username},
+            { UserInfo:{ 
+                  "username": decoded.username,
+                  roles:roles,
+                }},
             process.env.ACCESS_TOKEN_SECRET,{expiresIn: "30s"}
         );
         res.json({accesstoken});
