@@ -6,6 +6,21 @@ const userSchema = new Schema({
         type: String,
         required: true
     },
+    email:{
+        type:String,
+        required:false
+    },
+
+    firstname:{
+        type:String,
+        required:false
+    },
+    lastname:{
+        type:String,
+        required:false
+    },
+
+
     roles: {
         User: {
             type: Number,
@@ -13,6 +28,11 @@ const userSchema = new Schema({
         },
         Editor: Number,
         Admin: Number
+    },
+
+    confirmpassword: {
+        type: String,
+        required: false
     },
     password: {
         type: String,
