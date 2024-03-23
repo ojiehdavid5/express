@@ -136,3 +136,7 @@
 20240323	21:14:06	812acdfc-0910-4577-85ee-88403885c714	POST	undefined	/auth
 20240323	21:15:53	e6515481-756a-4ab5-966c-1bd8ad4188a5	POST	undefined	/auth
 20240323	21:18:28	ddaef886-43a0-4c99-bafe-0c1eb76984ee	POST	undefined	/auth
+20240323	21:21:52	6c11d0c7-4182-4a65-897a-dff9685c3714	OPTIONS	http://localhost:3000	/register
+20240323	21:21:52	45fd8550-0738-4614-a614-b1444c158c4c	POST	http://localhost:3000	/register
+20240323	21:21:54	e512462a-a38a-4c84-8edb-ad1c1201b997	POST	http://localhost:3000	/register
+20240323	21:21:54	d52a8327-5fc1-4cf5-ace0-db92592f7aaf	POST	http://localhost:3000	/register
